@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+docker = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+
+[scripts]
+start="flask --app server run"
+compile="python compile.py"
