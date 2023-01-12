@@ -10,7 +10,7 @@ flask = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.11"
 
 
 [scripts]
