@@ -6,12 +6,12 @@ name = "pypi"
 [packages]
 docker = "*"
 flask = "*"
+gunicorn = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.11"
-
 
 [scripts]
 start="flask --app server run"
